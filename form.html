@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="divTable2">
+        <form method="post">
+            <table border="1" class="table2">
+                <tr>
+                    <td> <label for="fName">نام</label></td>
+                    <td> <input type="text" id="fName" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2"> <label for="fEmail">ایمیل</label></td>
+                    <td> <input type="email" id="fEmail" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td> <input type="password" placeholder="password"></td>
+                </tr>
+                <tr>
+                    <td> <label for="fBirth"> تاریخ تولد</label></td>
+                    <td> <input type="date" id="fBirth"></td>
+                </tr>
+                <tr>
+                    <td> <label for="fAge">سن</label></td>
+                    <td> <input type="text" id="fAge" placeholder="age"></td>
+                </tr>
+                <tr>
+                    <td> رنگ مورد علاقه</td>
+                    <td> <input type="color"></td>
+                </tr>
+                <tr>
+                    <td>ماسک میزنی یا نه؟</td>
+                    <td> 
+                        <input type="radio" >
+                        <label> ماسک میزنم</label>
+                        <br>
+                        <input type="radio" >
+                        <label> ماسک نمیزنم</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>میوه مورد علاقه</td>
+                    <td>
+                        <input type="checkbox">
+                        <label><img src="images/apple.png" alt="apple" class="imgTable"></label>
+                        <input type="checkbox">
+                        <label><img src="images/strawberry.png" alt="strawberry" class="imgTable"></label>
+                        <input type="checkbox">
+                        <label><img src="images/watermelon.png" alt="watermelon" class="imgTable"></label>
+                        <input type="checkbox">
+                        <label><img src="images/cherry.png" alt="cherry" class="imgTable"></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>کشور</td>
+                    <td> <select name="country">
+                        <option>ایران</option>
+                        <option>آمریکا</option>
+                        <option>کانادا</option>
+                        <option>آلمان</option>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        زندگی نامه
+                    </td>
+                    <td>
+                        <textarea name="textarea" cols="20" rows="5" >هرچه میخواهد دل تنگت بگو</textarea>
+                    </td>
+                </tr>
+                <tr > 
+                    <td colspan="2" >
+                        <input type="submit" value="نام نویسی">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>
