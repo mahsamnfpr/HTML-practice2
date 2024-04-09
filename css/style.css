@@ -1,0 +1,83 @@
+/* body {
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+
+.discription {
+    margin-left: 40px;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.imgText {
+    margin-left: 40px;
+}
+
+.img {
+    width: 80px;
+    height: 150px;
+    margin-left: 40px;
+}
+
+ul li {
+    list-style: circle;
+}
+
+.spanBold {
+    font-weight: bold;
+}
+
+.tableDisplay {
+
+    width: 500px;
+    margin: 0 auto;
+
+}
+
+.table1 {
+
+    text-align: center;
+    width: 300px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+
+}
+
+table .tHead {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.tableHead {
+    height: 60px;
+}
+
+.tableFoot {
+    height: 25px;
+
+}
+
+.divTable2{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.table2 {
+    padding: 20px 10px 20px 10px;
+
+}
+
+.imgTable {
+    width: 15px;
+}
+
+form {
+    padding: 20px;
+}
